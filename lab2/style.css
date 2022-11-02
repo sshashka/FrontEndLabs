@@ -1,0 +1,119 @@
+/* General styles */
+.circle {border-radius: 50%;}
+
+.circle_with_relative_position{
+   position: relative;
+}
+
+.circle_with_absolute_position{
+   position: absolute;
+}
+
+.outer_circle {
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    background-color: gray;
+}
+
+.small_white_circle {
+   height: 80px;
+   width: 80px;
+   background-color: white;
+}
+
+/* For first image only (position) */
+
+.white_circle_with_absolute_position {
+   height: 120px;
+   width: 120px;
+   background-color: white;
+   position: absolute;
+   left: 30%;
+   top: 30%;
+}
+
+.deg0 {
+   left: 85%;
+   top: 35%;
+}
+
+.deg45 {
+   left: 70%;
+   top: 0;
+}
+
+.deg90 {
+   left: 37%;
+   top: -10%;
+}
+
+.deg135 {
+   left: 3%;
+   top: 3%;
+}
+
+.deg180 {
+   position: absolute;
+   left: -15%;
+   top: 35%;
+}
+
+.deg225 {
+   left: 0;
+   top: 70%;
+}
+
+.deg270 {
+   left: 37%;
+   top: 85%;
+}
+
+.deg315 {
+   left: 75%;
+   top: 70%;
+}
+
+
+/* For second image only (transform) */
+
+.white_circle_transformed {
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    transform: translate(75%, 75%);
+}
+
+.deg-0 {
+     transform: translate(320%, -15%); 
+ }
+ 
+ .deg-45 {
+     transform: translate(260%, -240%); 
+    
+ }
+ 
+ .deg-90 {
+     transform: translate(135%, -390%)
+ }
+ 
+ .deg-135 {
+    transform: translate(0, -440%)
+ }
+ 
+ .deg-180 {
+   transform: translate(-50%, -415%)
+ }
+ 
+ .deg-225 {
+   transform: translate(10%, -385%)
+ }
+ 
+ .deg-270 {
+   transform: translate(145%, -430%);
+ }
+ 
+ .deg-315 {
+   transform: translate(275%, -580%); 
+ }
+
